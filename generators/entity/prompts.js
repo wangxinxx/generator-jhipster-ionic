@@ -79,6 +79,7 @@ function askForBackendJson() {
                 context.backendPath = path.resolve(props.backendPath);
             }
             context.fromPath = `${context.backendPath}/${context.jhipsterConfigDirectory}/${context.entityNameCapitalized}.json`;
+            console.log('fromPath', context.fromPath);
             context.useConfigurationFile = true;
             context.useBackendJson = true;
             this.loadEntityJson();
