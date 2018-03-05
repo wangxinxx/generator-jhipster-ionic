@@ -5,7 +5,7 @@ const fse = require('fs-extra');
 const assert = require('yeoman-assert');
 const helpers = require('yeoman-test');
 
-xdescribe('JHipster generator jhipster-generator-ionic', () => {
+describe('JHipster generator jhipster-generator-ionic', () => {
     describe('Test Generating Ionic App', () => {
         beforeEach((done) => {
             helpers
